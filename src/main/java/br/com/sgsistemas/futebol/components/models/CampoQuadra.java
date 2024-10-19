@@ -1,4 +1,4 @@
-package br.com.sgsistemas.futebol.components;
+package br.com.sgsistemas.futebol.components.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

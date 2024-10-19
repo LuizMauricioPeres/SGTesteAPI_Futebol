@@ -1,4 +1,4 @@
-package br.com.sgsistemas.futebol.components;
+package br.com.sgsistemas.futebol.components.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package br.com.sgsistemas.futebol.components;
+package br.com.sgsistemas.futebol.components.models;
 
 public enum Situacao {
     PENDENTE,

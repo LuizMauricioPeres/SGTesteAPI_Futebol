@@ -1,5 +1,8 @@
-package br.com.sgsistemas.futebol.components;
+package br.com.sgsistemas.futebol.components.services;
 
+import br.com.sgsistemas.futebol.components.models.CampoQuadra;
+import br.com.sgsistemas.futebol.components.models.Tipo;
+import br.com.sgsistemas.futebol.components.repository.CampoQuadraRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -7,7 +10,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import java.awt.print.Pageable;
 import java.util.List;
 
 @Service

@@ -1,9 +1,10 @@
-package br.com.sgsistemas.futebol.components;
+package br.com.sgsistemas.futebol.components.repository;
 
+import br.com.sgsistemas.futebol.components.models.Tipo;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
-import br.com.sgsistemas.futebol.components.CampoQuadra;
+import br.com.sgsistemas.futebol.components.models.CampoQuadra;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;

@@ -1,4 +1,4 @@
-package br.com.sgsistemas.futebol.components;
+package br.com.sgsistemas.futebol.components.repository;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import br.com.sgsistemas.futebol.components.Reserva;
+import br.com.sgsistemas.futebol.components.models.Reserva;
 
 import java.time.LocalDate;
 

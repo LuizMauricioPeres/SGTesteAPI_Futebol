@@ -1,5 +1,8 @@
-package br.com.sgsistemas.futebol.components;
+package br.com.sgsistemas.futebol.components.controller;
 
+import br.com.sgsistemas.futebol.components.models.CampoQuadra;
+import br.com.sgsistemas.futebol.components.services.CampoQuadraService;
+import br.com.sgsistemas.futebol.components.models.Tipo;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
